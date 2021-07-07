@@ -39,7 +39,8 @@
 
 # Section002
 
-- Memo
+- Model
+
   - [MVC](https://qiita.com/s_emoto/items/975cc38a3e0de462966a)
     - Model
       - システムの中でビジネスロジックを担当する
@@ -56,6 +57,28 @@
     - ViewModel
       - View と Model 間の伝達
       - View のための状態保持
+
+- collectionView の設定など
+
+  - セルの数など
+
+    - ```
+      collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+
+      extension FeedController {
+          override func collectionView(_ collectionView: UICollectionView,
+                                      numberOfItemsInSection section: Int) -> Int {
+              return 5
+          }
+          override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+              let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+              cell.backgroundColor = .red
+              return cell
+          }
+      }
+      ```
+
+- Memo
   - [contentMode = .scaleAspectFill](https://qiita.com/Saayaman/items/a23519ff5a8ad287cf20)
     - Aspect Fill はスペースを空けないで Bounds 内に収めます。
     - ただし、Bounds のサイズを無視するので、Storyboard で Clip to Bounds にチェックを入れる必要があります。
@@ -67,6 +90,8 @@
     - 最初に利用されるまで、初期化処理を走らなくさせることができます。
   - [Touch Up Inside](https://hajihaji-lemon.com/swift/uibutton_event/)
     - 指がボタンに触れて、ボタンの近くで指を離す動作
+  - [UICollectionViewFlowLayout](https://uruly.xyz/%E3%80%90swift%E3%80%91-uicollectionviewflowlayout%E3%81%AE%E4%BD%99%E7%99%BD%E8%AA%BF%E6%95%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/)
+    - UICollectionView を使うときに、セルの大きさや余白を設定することができます
 
 ### [Return to Contents](#contents)
 
