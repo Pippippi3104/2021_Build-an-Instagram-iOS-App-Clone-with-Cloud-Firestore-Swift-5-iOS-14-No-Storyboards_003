@@ -23,6 +23,7 @@
 		CF8DCF912696872E00E6A0E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF902696872E00E6A0E4 /* Extensions.swift */; };
 		CF8DCF942696B2A900E6A0E4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF932696B2A900E6A0E4 /* LoginController.swift */; };
 		CF8DCF962696B2BC00E6A0E4 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF952696B2BC00E6A0E4 /* RegistrationController.swift */; };
+		CF8DCF982696C5BE00E6A0E4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF972696C5BE00E6A0E4 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		CF8DCF902696872E00E6A0E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CF8DCF932696B2A900E6A0E4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		CF8DCF952696B2BC00E6A0E4 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		CF8DCF972696C5BE00E6A0E4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				CF8DCF8E269685C700E6A0E4 /* FeedCell.swift */,
+				CF8DCF972696C5BE00E6A0E4 /* CustomTextField.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8DCF982696C5BE00E6A0E4 /* CustomTextField.swift in Sources */,
 				CF8DCF87269567A500E6A0E4 /* NotificationsController.swift in Sources */,
 				CF8DCF942696B2A900E6A0E4 /* LoginController.swift in Sources */,
 				CF8DCF8F269685C700E6A0E4 /* FeedCell.swift in Sources */,
