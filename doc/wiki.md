@@ -92,6 +92,8 @@
     - 指がボタンに触れて、ボタンの近くで指を離す動作
   - [UICollectionViewFlowLayout](https://uruly.xyz/%E3%80%90swift%E3%80%91-uicollectionviewflowlayout%E3%81%AE%E4%BD%99%E7%99%BD%E8%AA%BF%E6%95%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/)
     - UICollectionView を使うときに、セルの大きさや余白を設定することができます
+  - [UICollectionViewDelegateFlowLayout](https://qiita.com/takehilo/items/dc478d2182595b8ae332)
+    - 個別にセルの大きさを設定
 
 ### [Return to Contents](#contents)
 
