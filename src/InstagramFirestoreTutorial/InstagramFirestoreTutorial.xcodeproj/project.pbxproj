@@ -21,6 +21,8 @@
 		CF8DCF8D269567DA00E6A0E4 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF8C269567DA00E6A0E4 /* FeedController.swift */; };
 		CF8DCF8F269685C700E6A0E4 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF8E269685C700E6A0E4 /* FeedCell.swift */; };
 		CF8DCF912696872E00E6A0E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF902696872E00E6A0E4 /* Extensions.swift */; };
+		CF8DCF942696B2A900E6A0E4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF932696B2A900E6A0E4 /* LoginController.swift */; };
+		CF8DCF962696B2BC00E6A0E4 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF952696B2BC00E6A0E4 /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		CF8DCF8C269567DA00E6A0E4 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		CF8DCF8E269685C700E6A0E4 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		CF8DCF902696872E00E6A0E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CF8DCF932696B2A900E6A0E4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CF8DCF952696B2BC00E6A0E4 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		CF8DCF7E269559ED00E6A0E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF8DCF922696B29300E6A0E4 /* Authentication */,
 				CF8DCF822695627700E6A0E4 /* MainTabController.swift */,
 				CF8DCF8C269567DA00E6A0E4 /* FeedController.swift */,
 				CF8DCF8A269567C900E6A0E4 /* SearchController.swift */,
@@ -137,6 +142,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CF8DCF922696B29300E6A0E4 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CF8DCF932696B2A900E6A0E4 /* LoginController.swift */,
+				CF8DCF952696B2BC00E6A0E4 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8DCF87269567A500E6A0E4 /* NotificationsController.swift in Sources */,
+				CF8DCF942696B2A900E6A0E4 /* LoginController.swift in Sources */,
 				CF8DCF8F269685C700E6A0E4 /* FeedCell.swift in Sources */,
 				CF8DCF89269567BB00E6A0E4 /* ImageSelectorController.swift in Sources */,
 				CF8DCF852695679200E6A0E4 /* ProfileController.swift in Sources */,
@@ -220,6 +235,7 @@
 				CF8DCF832695627700E6A0E4 /* MainTabController.swift in Sources */,
 				CF8DCF8D269567DA00E6A0E4 /* FeedController.swift in Sources */,
 				CF8DCF6B2695596900E6A0E4 /* SceneDelegate.swift in Sources */,
+				CF8DCF962696B2BC00E6A0E4 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
