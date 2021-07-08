@@ -25,7 +25,7 @@ class FeedController: UICollectionViewController {
         collectionView.backgroundColor = .white
         
         // register cell settings
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        collectionView.register(FeedCell.self, forCellWithReuseIdentifier: reuseIdentifier)
     }
 }
 
@@ -33,12 +33,12 @@ class FeedController: UICollectionViewController {
 extension FeedController {
     override func collectionView(_ collectionView: UICollectionView,
                                  numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return 10
     }
     override func collectionView(_ collectionView: UICollectionView,
                                  cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-        cell.backgroundColor = .red
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier,
+                                                      for: indexPath) as! FeedCell
         return cell
     }
 }

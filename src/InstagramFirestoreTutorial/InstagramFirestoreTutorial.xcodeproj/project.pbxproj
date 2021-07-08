@@ -19,6 +19,8 @@
 		CF8DCF89269567BB00E6A0E4 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF88269567BB00E6A0E4 /* ImageSelectorController.swift */; };
 		CF8DCF8B269567C900E6A0E4 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF8A269567C900E6A0E4 /* SearchController.swift */; };
 		CF8DCF8D269567DA00E6A0E4 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF8C269567DA00E6A0E4 /* FeedController.swift */; };
+		CF8DCF8F269685C700E6A0E4 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF8E269685C700E6A0E4 /* FeedCell.swift */; };
+		CF8DCF912696872E00E6A0E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF902696872E00E6A0E4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		CF8DCF88269567BB00E6A0E4 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		CF8DCF8A269567C900E6A0E4 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		CF8DCF8C269567DA00E6A0E4 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		CF8DCF8E269685C700E6A0E4 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		CF8DCF902696872E00E6A0E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		CF8DCF7C269559D500E6A0E4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CF8DCF902696872E00E6A0E4 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 		CF8DCF8026955A0400E6A0E4 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				CF8DCF8E269685C700E6A0E4 /* FeedCell.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -204,8 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8DCF87269567A500E6A0E4 /* NotificationsController.swift in Sources */,
+				CF8DCF8F269685C700E6A0E4 /* FeedCell.swift in Sources */,
 				CF8DCF89269567BB00E6A0E4 /* ImageSelectorController.swift in Sources */,
 				CF8DCF852695679200E6A0E4 /* ProfileController.swift in Sources */,
+				CF8DCF912696872E00E6A0E4 /* Extensions.swift in Sources */,
 				CF8DCF8B269567C900E6A0E4 /* SearchController.swift in Sources */,
 				CF8DCF6D2695596900E6A0E4 /* ViewController.swift in Sources */,
 				CF8DCF692695596900E6A0E4 /* AppDelegate.swift in Sources */,
