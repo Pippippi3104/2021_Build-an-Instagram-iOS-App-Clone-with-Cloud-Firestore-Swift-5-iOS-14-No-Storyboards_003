@@ -112,6 +112,20 @@
 
     - UICollectionViewCell
 
+- NavigationController によるページ遷移例
+
+  - ```
+    @objc func handleShowSignUp() {
+            let controller = RegistrationController()
+            navigationController?.pushViewController(controller, animated: true)
+        }
+    ```
+  - ```
+    @objc func handleShowLogin(){
+            navigationController?.popViewController(animated: true)
+        }
+    ```
+
 - Memo
   - setHeight(number)
     - paddingvertical
