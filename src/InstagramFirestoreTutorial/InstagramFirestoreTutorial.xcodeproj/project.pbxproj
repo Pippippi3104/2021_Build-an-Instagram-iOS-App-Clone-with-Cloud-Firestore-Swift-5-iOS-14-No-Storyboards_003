@@ -24,6 +24,7 @@
 		CF8DCF942696B2A900E6A0E4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF932696B2A900E6A0E4 /* LoginController.swift */; };
 		CF8DCF962696B2BC00E6A0E4 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF952696B2BC00E6A0E4 /* RegistrationController.swift */; };
 		CF8DCF982696C5BE00E6A0E4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF972696C5BE00E6A0E4 /* CustomTextField.swift */; };
+		CF8DCF9A26A31C7200E6A0E4 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DCF9926A31C7200E6A0E4 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		CF8DCF932696B2A900E6A0E4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		CF8DCF952696B2BC00E6A0E4 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		CF8DCF972696C5BE00E6A0E4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CF8DCF9926A31C7200E6A0E4 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		CF8DCF7F269559FC00E6A0E4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CF8DCF9926A31C7200E6A0E4 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				CF8DCF8F269685C700E6A0E4 /* FeedCell.swift in Sources */,
 				CF8DCF89269567BB00E6A0E4 /* ImageSelectorController.swift in Sources */,
 				CF8DCF852695679200E6A0E4 /* ProfileController.swift in Sources */,
+				CF8DCF9A26A31C7200E6A0E4 /* AuthenticationViewModel.swift in Sources */,
 				CF8DCF912696872E00E6A0E4 /* Extensions.swift in Sources */,
 				CF8DCF8B269567C900E6A0E4 /* SearchController.swift in Sources */,
 				CF8DCF6D2695596900E6A0E4 /* ViewController.swift in Sources */,
